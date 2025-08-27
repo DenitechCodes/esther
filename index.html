@@ -300,7 +300,7 @@
         
         <div class="input-section">
             <h3>Enter your birthday to get a special message:</h3>
-            <input type="date" id="birthday">
+            <input type="date" id="birthday" min="1970-01-01" max="2025-12-31" value="2000-01-01">
             <button onclick="showResponse()">
                 <i class="fas fa-birthday-cake"></i> click here to see the Special Message
             </button>
@@ -419,4 +419,5 @@
         });
     </script>
 </body>
+
 </html>
